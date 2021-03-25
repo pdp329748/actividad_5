@@ -1,3 +1,3 @@
-function showDate() {
-	document.getElementById('text').innerHTML = Date()
+const showDate = () => {
+	document.getElementById('text').innerHTML = Date();
 }
